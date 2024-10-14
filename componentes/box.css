@@ -1,0 +1,13 @@
+#box{
+    background-color: #3a4042;
+    display: inline-block;
+
+    box-shadow: 10px 10px 0px black;
+    text-align: center; /* aqui eu afeto os filhos, não só o element*/ 
+    padding: 42px 44px;
+
+}
+#box > h1{
+    margin-bottom: 28px;
+
+}
