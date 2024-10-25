@@ -7,3 +7,10 @@
     border-bottom: 10px solid #7c5e99;
     
 }
+.section .main-title{
+    margin-bottom: 60px;
+}
+.section .-preta{
+    background-color: rgb(87, 51, 51);
+    color: aquamarine;
+}
