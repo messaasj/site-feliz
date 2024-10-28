@@ -1,4 +1,4 @@
-.buttom{
+.main-buttom{
     background-color: #F25A70;
     display: inline-block;
     box-shadow: 5px 5px 0px black;
@@ -9,7 +9,7 @@
     font-family:  "Fira Code", monospace;
     text-decoration: none;
 }
-.buttom:hover{
+.main-buttom:hover{
     background-color: #f74862;
     transition-duration: 0.5s;
     box-shadow: 6px 6px 0px black;
