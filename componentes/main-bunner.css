@@ -1,4 +1,4 @@
-.bunner{
+.main-bunner{
     background-image: url("../imagens/Banner\ \(1\).png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -10,14 +10,14 @@
 }
 
 
-.bunner > .wrapper{
+.main-bunner > .wrapper{
     display: flex; /*essa parte é importante pq ele começa com o flex , so o flex faz os elementos filhos esticarem completamente na horizontal na <section><\section>, entao saida é */
     flex-direction: column;
     width: 640px;
     
 }
 
-.bunner .navegation{
+.main-bunner .navegation{
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
