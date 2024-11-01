@@ -1,0 +1,9 @@
+.main-description{
+    font-size: 30px;
+    color: white;
+    font-family:  "Fira Code", monospace;
+    font-weight: 300;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 1.3;
+}

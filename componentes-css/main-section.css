@@ -19,3 +19,14 @@
     border-bottom: 10px solid #F25A70;
 
 }
+
+.section-sobre{
+    background-color: #7c5e99;
+    text-align: center; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 10px solid #7c5e99;
+}
+.section-sobre.-bdsec{
+    border-bottom: 10px solid black;
+}
