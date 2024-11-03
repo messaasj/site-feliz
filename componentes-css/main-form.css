@@ -1,0 +1,23 @@
+.main-form{
+   
+}
+.margem{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main-form .main-title{
+    margin-bottom: 50px;
+}
+.contato-form{
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-family:  "Fira Code", monospace;
+    color: white;
+    font-size: 30px;
+    font-weight: 300px;
+   
+}
+.main-form .main-input{
+    margin-bottom: 20px;
+}

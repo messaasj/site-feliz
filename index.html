@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="./componentes-css/node-card.css">
     <link rel="stylesheet" href="./componentes-css/main-carousel.css">
     <link rel="stylesheet" href="./componentes-css/main-footer.css">
+    <link rel="stylesheet" href="./componentes-css/main-form.css">
+    <link rel="stylesheet" href="./componentes-css/main-label.css">
+    <link rel="stylesheet" href="./componentes-css/main-input.css">
 
 </head>
 <body>
@@ -169,7 +172,7 @@
 
         
     <section class="section-sobre -bdsec">
-        <h2 class="main-title -second">sobre</h2>
+        <h2 class="main-subtitle -second">sobre</h2>
 
         <p class="main-description">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
         </p>
@@ -237,6 +240,31 @@
     
 
     <script src="componentes-js/main-carousel.js"></script>
+
+
+
+
+    
+        
+            
+                <form class="main-form" action="cadastro.php">
+                    <div class="margem">
+                    <legend class="main-title -second">Contatos</legend>
+                    <label class="main-label" for="name">Nome:</label>
+                <input class="main-input" type="text" id="name" name="name" required>
+                <label class="main-label" for="email">Email:</label>
+                <input class="main-input" type="email" id="email" name="email" required>
+                <label class="main-label" for="message">Mensagem:</label>
+                <textarea class="main-input -textarea" id="message" name="message" rows="4" required></textarea>
+                <button class="main-buttom -form" type="submit">Enviar</button>
+                </form>
+            
+        </div>
+
+
+
+
+
 
 
     <footer class="main-footer">
